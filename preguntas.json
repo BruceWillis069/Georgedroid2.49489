@@ -1,0 +1,58 @@
+[
+    [
+        "sable_luz",
+        "\u00bfEl personaje tiene un sable de luz?"
+    ],
+    [
+        "humano",
+        "\u00bfEl personaje es humano?"
+    ],
+    [
+        "lado_oscuro",
+        "\u00bfEl personaje pertenece al lado oscuro?"
+    ],
+    [
+        "jedi",
+        "\u00bfEl personaje es un Jedi?"
+    ],
+    [
+        "wookie",
+        "\u00bfEl personaje es un Wookie?"
+    ],
+    [
+        "droide",
+        "\u00bfEl personaje es un droide?"
+    ],
+    [
+        "cazarrecompensas",
+        "\u00bfEl personaje es un cazarrecompensas?"
+    ],
+    [
+        "casco",
+        "\u00bfEl personaje usa casco?"
+    ],
+    [
+        "sith",
+        "\u00bfEl personaje es un Sith?"
+    ],
+    [
+        "rebelde",
+        "\u00bfEl personaje pertenece a la Alianza Rebelde?"
+    ],
+    [
+        "lider_batalla",
+        "\u00bfEl personaje ha liderado una batalla importante?"
+    ],
+    [
+        "relacion_familiar",
+        "\u00bfEl personaje tiene una relaci\u00f3n familiar con otro personaje importante?"
+    ],
+    [
+        "saga",
+        "\u00bfEl personaje pertenece a la trilog\u00eda original?"
+    ],
+    [
+        "esta_circuinsidado?",
+        "esta circuinsidado?"
+    ]
+]

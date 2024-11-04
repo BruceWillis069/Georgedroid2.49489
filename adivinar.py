@@ -63,21 +63,21 @@ class AdivinaPersonajeApp:
     def __init__(self, root):
         self.root = root
         self.root.title("Adivina el Personaje - Star Wars")
-        self.personajes = cargar_personajes()  # Cargar personajes al iniciar
+        self.personajes = cargar_personajes()  
         self.preguntas = cargar_preguntas()
 
-        # Canvas para agregar imagen de fondo
+        
         self.canvas = tk.Canvas(root, width=600, height=400)
         self.canvas.pack(fill="both", expand=True)
 
-        # Imagen de fondo
+        
         self.fondo_imagen = tk.PhotoImage(file=r"C:\Gerogedroid2.3243\fondoespacio.gif")
         self.canvas.create_image(0, 0, image=self.fondo_imagen, anchor="nw")
 
-        # Estilo de botones
+        
         button_style = {"font": ("Arial", 12), "bg": "#5b9bd5", "fg": "white", "width": 20, "height": 2}
         
-        # Botones colocados en el canvas
+      
         self.ver_personajes_btn = tk.Button(root, text="Ver Personajes", command=self.ver_personajes, **button_style)
         self.canvas.create_window(300, 100, anchor="center", window=self.ver_personajes_btn)
 
@@ -101,7 +101,7 @@ class AdivinaPersonajeApp:
         messagebox.showinfo("Personajes Disponibles", "\n".join(personajes_nombres))
 
     def iniciar_adivinar(self):
-        self.root.withdraw()  # Oculta la ventana principal
+        self.root.withdraw()  
         self.adivinador = AdivinaPersonaje(self.root, self.personajes, self.preguntas, self)
 
     def agregar_personaje(self):
